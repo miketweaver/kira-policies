@@ -1,106 +1,126 @@
-# Kira Connect Privacy Policy
+# Kira Privacy Policy
 
 Effective: November 24, 2026
 
-This policy covers **Kira Connect**: the `kira-connect` command-line tool and
-native messaging host, and the Kira Connect browser extension for Microsoft
-Edge and Firefox (together, "Kira Connect"). It is developed by
-[@miketweaver](https://github.com/miketweaver) ("we", "us").
+Kira is an AI assistant that invited people chat with by text message (SMS
+and RCS), through messaging apps, and through web or app chat. Kira is run
+by [@miketweaver](https://github.com/miketweaver) ("we", "us"). This policy
+explains what information Kira handles, why, who it is shared with, and the
+choices you have.
 
 ## The short version
 
-Kira Connect does not collect, store, sell or share your personal
-information. It has no accounts, no servers, no analytics, no telemetry, no
-crash reporting and no advertising. Everything it does happens on your own
-computer, between your browser and programs you run.
+- Kira keeps your conversations so it can remember context, until you ask
+  us to delete them.
+- Your messages are processed by AI model providers to write Kira's replies,
+  and carried by the messaging services you use to reach Kira.
+- We do not sell your information, use it for advertising, or share your
+  mobile number for marketing.
 
-## What we collect
+## Who can use Kira
 
-Nothing. We do not operate any server that Kira Connect talks to, so no
-data about you, your browsing or your use of Kira Connect ever reaches us.
+Kira is available only to people we invite. If you received a message from
+Kira without being invited, reply STOP and tell us.
 
-## What Kira Connect handles on your computer
+## Information we collect
 
-Kira Connect lets programs on your computer read from, and act in, websites
-you are signed in to, using your own browser session. To do that it handles
-the following, **only on your device**:
+- **Contact details.** Your phone number, messaging-app handle or chat
+  account, and the name you are known by.
+- **Your conversations.** The messages you send Kira and its replies,
+  including any photos, files, links or voice notes you send, with dates and
+  times.
+- **Things Kira remembers.** Notes Kira saves to help in later conversations,
+  such as preferences or facts you share with it.
+- **Opt-in and opt-out records.** When you agreed to receive messages, and
+  any STOP or HELP requests.
+- **Technical information.** For web or app chat, basic details such as your
+  IP address, device and browser type, and timestamps, as recorded in server
+  logs.
 
-- **Responses from approved websites.** When a program asks, the extension
-  fetches an approved URL, reads text from an approved page, or performs
-  approved actions (such as typing and clicking) in a browser tab. Only
-  websites listed in the approval list shipped with each release can be
-  reached, and only after you grant the browser permission for them.
-- **Passing results to local programs.** Results go from the extension to the
-  Kira Connect native host over the browser's native messaging channel, and
-  from there to the requesting program over a Unix socket in your home
-  directory that only your user account can open.
-- **What you approve.** When a website change needs your confirmation,
-  the extension shows you what will be sent or done, in a window on your
-  screen.
+Please do not send Kira passwords, payment card numbers, government ID
+numbers, health records or other sensitive information it does not need.
 
-Response bodies and page text are held in memory, limited in size, and
-discarded when the request finishes. Kira Connect does not write them to
-disk, keep a history, or cache them.
+## How we use it
 
-Kira Connect keeps a few local files to work: a copy of its own program and
-a lock file in `~/.kira-connect`, and a registration file in your browser's
-native messaging folder. These contain no personal information.
+- to read your messages and send Kira's replies;
+- to remember earlier conversations so Kira can help with context;
+- to carry out tasks you ask Kira to do, such as looking something up;
+- to keep Kira working, secure and free of abuse, and to fix problems;
+- to honor your opt-out, help and deletion requests, and to meet legal
+  obligations.
 
-## Cookies and sign-ins
+We do not use your information for advertising, and we do not sell it.
 
-Kira Connect never reads, copies or exports your cookies, passwords or
-session tokens. Requests are made by your browser itself, which attaches
-your existing sign-in the same way it would if you visited the site. The
-extension does not request the browser's `cookies` permission.
+## Who we share it with
 
-## Browser permissions
+We share information only with the service providers Kira needs in order
+to work, and only for that purpose:
 
-The extension asks for:
+- **AI model providers**, which process your messages to generate Kira's
+  replies. We use their business or API services, and choose services that
+  do not use API data to train their models.
+- **Messaging providers**, such as SMS and RCS carriers, messaging-app
+  operators and the text-messaging platforms that connect Kira to them, which
+  carry messages between you and Kira.
+- **Hosting providers**, which run the computers that store conversations
+  and serve web or app chat.
 
-- `nativeMessaging`, to talk to the Kira Connect program on your computer.
-- `scripting`, to read text from, and act in, only the tabs it opens itself
-  on approved websites.
-- Optional access to specific websites, which you grant or refuse in the
-  browser when you click **Connect**. Only websites in the approval list are
-  ever requested.
+Each provider handles the information it receives under its own terms and
+privacy policy.
 
-It does not ask for access to your browsing history or to your other tabs.
-In Firefox, the add-on declares that it collects no data.
+We may also disclose information if the law requires it, or to protect the
+safety of any person.
 
-## Other programs on your computer
+**Text messaging.** No mobile information will be shared with third parties
+or affiliates for marketing or promotional purposes. Text messaging
+originator opt-in data and consent will not be shared with any third
+parties. Information sharing with the service providers above, such as the
+messaging platforms that deliver texts, is only to provide Kira.
 
-While Kira Connect is connected, any program running under your user account
-can ask it to read from or act in approved websites as you. You decide which
-programs you run. If you use an AI assistant with Kira Connect, it can see
-whatever it reads through Kira Connect, under that assistant's own terms
-and privacy policy.
+## How long we keep it
 
-## Websites you use
+Conversations and the things Kira remembers are kept until you ask us to
+delete them, or until we stop running Kira. Opt-out records are kept as long
+as needed to keep honoring your choice. Server logs are kept only as long as
+needed to run and secure Kira.
 
-The websites Kira Connect reaches for you (for example Google Chat) receive
-requests from your browser just as they would if you used them yourself.
-Their own privacy policies apply to that activity.
+## Your choices
 
-## Downloading and updates
+- **Stop messages.** Reply **STOP** to any text from Kira to stop receiving
+  texts. Reply **HELP** for help.
+- **See or delete your information.** Ask us for a copy of your
+  conversations and what Kira remembers about you, or to delete them. We will
+  do it within 30 days. Copies held by a service provider are deleted under
+  that provider's own schedule.
+- **Correct it.** Tell Kira or us if something it remembers is wrong.
 
-Kira Connect is distributed through GitHub and a Homebrew tap. GitHub and
-Homebrew may log downloads and other activity under their own privacy
-policies. Kira Connect itself does not check for updates or contact any
-server.
+To make a request, message Kira or contact the person who invited you.
+
+## Security
+
+We protect your information with reasonable measures, such as limiting who
+can access it and using encrypted connections where the messaging service
+supports them. Standard SMS is not end-to-end encrypted, so avoid sending
+sensitive information by text.
 
 ## Children
 
-Kira Connect is a developer tool and is not directed at children under 13.
-It collects no information from anyone, including children.
+Kira is not intended for children under 13. A child under 13 may use Kira
+only if a parent or guardian invites them and agrees to this policy; that
+parent or guardian may review or delete the child's information at any time.
 
 ## Changes
 
 Changes to this policy are published as commits to
 [miketweaver/kira-policies](https://github.com/miketweaver/kira-policies),
-with an updated effective date above. If Kira Connect ever starts handling
-data differently, this policy will be updated before that release.
+with an updated effective date above. If we change how your information is
+used or shared in a significant way, we will tell you through Kira before
+the change takes effect.
 
 ## Contact
 
-Questions about this policy: open an issue at
-<https://github.com/miketweaver/kira-policies/issues>.
+To ask a question or make a request about your information, message Kira or
+contact the person who invited you. For general questions about these
+policies, you can open an issue at
+<https://github.com/miketweaver/kira-policies/issues>, but issues are public,
+so do not include personal information there.
